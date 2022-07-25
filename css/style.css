@@ -66,13 +66,27 @@ ul{
     line-height: 1.14;
     letter-spacing: 0.02em;
     margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.mail::before:hover:focus{
+    content:'';
+    margin-right: 10px;
+    color: var(--accent-color);
 }
 .phone{
     color: var(--secondary-text-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center; 
+}
+.phone::before:hover:focus{
+    content:'';
+    margin-right: 10px;
+    color: var(--accent-color);
 }
 .mail:hover,:focus{
     color: var(--accent-color);
