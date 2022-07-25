@@ -264,6 +264,7 @@ flex-basis: calc((100% - 60px)/3);
 }
 .social-list{
     display: flex;
+    justify-content: center;
 }
 .social-list-link{
     display: flex;
