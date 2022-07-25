@@ -262,6 +262,18 @@ flex-basis: calc((100% - 60px)/3);
     text-align: center;
     background-color:#FFFFFF;
 }
+.social-list{
+    display: flex;
+}
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
 .title{
     color: var(--primary-text-color);
     font-size: 36px;
