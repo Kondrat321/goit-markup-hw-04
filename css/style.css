@@ -220,6 +220,8 @@ flex-basis: calc((100% - 60px)/3);
     height: 120px;
     background-color:#F5F4FA;
     margin-bottom: 30px;
+    padding-left: 102.34px;
+    padding-top: 25px;
 }
 .section-title{
     color: var(--primary-text-color);
