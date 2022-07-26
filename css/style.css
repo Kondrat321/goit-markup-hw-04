@@ -83,10 +83,13 @@ ul{
     display: flex;
     align-items: center; 
 }
+.header-icon{
+    fill: solid #757575;
+    margin-right: 10px;
+ }
 .phone::before:hover,
 .phone::before:focus{
     content:'';
-    margin-right: 10px;
     fill: currentColor;
 }
 .mail:hover,
@@ -431,7 +434,6 @@ footer{
 .block-social{
    width: 206px;
    height: 80px;
-   margin-bottom: 100px;
    margin-left: 70px;
 }
 .footer-social-link{
