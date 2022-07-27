@@ -87,11 +87,10 @@ ul{
     fill: solid #757575;
     margin-right: 10px;
  }
-.phone::before:hover,
-.phone::before:focus{
-    content:'';
-    fill: currentColor;
-}
+ .header-icon:hover,
+ .header-icon:focus{
+    fill: var(--accent-color);
+ }
 .mail:hover,
 .mail:focus{
     color: var(--accent-color);
