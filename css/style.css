@@ -84,7 +84,7 @@ ul{
     align-items: center; 
 }
 .header-icon{
-    fill: solid #757575;
+    fill: currentColor;
     margin-right: 10px;
  }
  .header-icon:hover,
